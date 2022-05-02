@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f6f7fb;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+   text-align: center; /*为了让两个button水平举中*/
+}
+.progress-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    transition: 0.5s ease;
+}
+
+.line{
+    width: 85px;
+    height: 3px;
+    margin: -10px;
+    z-index: -1;
+    background-color: #999999;
+    position: relative;
+}
+.rline{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #3498db;
+    transition: width 0.5s ease;
+}
+
+
+.btn{
+    background-color: #3498db;
+    border: none;
+    color: #ffffff;
+    width: 96px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:disabled{
+    background-color: #999999;
+    cursor: not-allowed;
+}
+
+.rlineactive{
+    width: 100%;
+}
+
+.cactive{
+    border-color: #3498db;
+}
