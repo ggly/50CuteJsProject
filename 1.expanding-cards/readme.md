@@ -1,5 +1,5 @@
 # 扩充卡片
-##开始
+## 开始
 乍一看html结构很简单
 ```html
 <div>
@@ -37,11 +37,19 @@
 ---
 ### 知识点
 [响应式图片](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+
 [object-fit](https://developer.mozilla.org/zh-CN/docs/Web/CSS/object-fit)
+
 [img or background-image?](https://juejin.cn/post/6844904185612206088)
+
 [background-size](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-size)
+
 [background-position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-position)
+
 [background-repeat](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-repeat)
+
 [cursor](https://developer.mozilla.org/zh-CN/docs/Web/CSS/cursor)
+
 [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
+
 [transition](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition)
